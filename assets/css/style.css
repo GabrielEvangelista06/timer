@@ -103,7 +103,7 @@ h1 {
   grid-area: 3 / 3 / 3 / 5;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .container {
     width: auto;
     grid-template-columns: repeat(3, 1fr);
