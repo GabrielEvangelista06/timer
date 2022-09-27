@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timer</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <audio src="./assets/audios/alarme.mp3" id="sound"></audio>
+
+    <h1>Timer</h1>
+    <div id="container">
+      <p id="hora-label" class="label">Horas</p>
+      <p id="minuto-label" class="label">Minutos</p>
+      <p id="segundo-label" class="label">Segundos</p>
+      <input
+        id="hora"
+        type="number"
+        max="99"
+        min="0"
+        value="0"
+        class="time hora"
+      />
+      <p id="p1" class="semicolon">:</p>
+      <input
+        id="minuto"
+        type="number"
+        max="60"
+        min="0"
+        value="0"
+        class="time minuto"
+      />
+      <p id="p2" class="semicolon">:</p>
+      <input
+        id="segundo"
+        type="number"
+        max="60"
+        min="0"
+        value="0"
+        class="time segundo"
+      />
+
+      <button id="comecarPausar" class="btn comecar">Começar</button>
+      <button class="btn zerar">Zerar</button>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
