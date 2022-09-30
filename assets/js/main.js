@@ -69,7 +69,6 @@ document.addEventListener('click', function (e) {
 
 document.addEventListener('keypress', function (event) {
   if (event.key === 'i') {
-    stopInterval()
     startInterval()
     transformaBotaoEmPausar()
   } else if (event.key === 'p') {
