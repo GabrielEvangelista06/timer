@@ -14,18 +14,6 @@ function startInterval() {
   }, 1000)
 }
 
-function transformaBotaoEmComecar() {
-  comecar.innerHTML = 'Começar'
-  comecar.classList.add('comecar')
-  comecar.classList.remove('pausar')
-}
-
-function transformaBotaoEmPausar() {
-  comecar.innerHTML = 'Pausar'
-  comecar.classList.add('pausar')
-  comecar.classList.remove('comecar')
-}
-
 function stopInterval() {
   clearInterval(interval)
 }
@@ -34,9 +22,10 @@ function timer() {
   if (horas.value == 0 && minutos.value == 0 && segundos.value == 0) {
     horas.value = 0
     minutos.value = 0
-    segundos.value = 0
-    audio.play()
+    segundos.value = 0 
     stopInterval()
+    audio.play()
+    transformaBotaoEmComecar()
   } else if (segundos.value != 0) {
     segundos.value--
   } else if (minutos.value != 0 && segundos.value == 0) {
@@ -47,6 +36,18 @@ function timer() {
     horas.value--
   }
   return
+}
+
+function transformaBotaoEmComecar() {
+  comecar.innerHTML = 'Começar'
+  comecar.classList.add('comecar')
+  comecar.classList.remove('pausar')
+}
+
+function transformaBotaoEmPausar() {
+  comecar.innerHTML = 'Pausar'
+  comecar.classList.add('pausar')
+  comecar.classList.remove('comecar')
 }
 
 document.addEventListener('click', function (e) {
