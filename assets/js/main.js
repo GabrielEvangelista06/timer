@@ -1,12 +1,12 @@
-var comecar = document.getElementById('comecarPausar')
+const comecar = document.getElementById('comecarPausar')
 
-var horas = document.getElementById('hora')
-var minutos = document.getElementById('minuto')
-var segundos = document.getElementById('segundo')
+const horas = document.getElementById('hora')
+const minutos = document.getElementById('minuto')
+const segundos = document.getElementById('segundo')
 
 const audio = document.getElementById('sound')
 
-var interval = null
+let interval = null
 
 function startInterval() {
   interval = setInterval(function () {
