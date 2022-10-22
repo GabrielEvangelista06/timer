@@ -13,4 +13,4 @@ Este projeto é um timer onde você coloca o tempo que você quer e ele vai dimi
 
 ## Detalhes do projeto
 
-Me inscrevi em uma vaga de emprego e uma parte do processo seletivo era o teste técnico, e eles me pediram para criar este time, fiz ele todo certinho e passei no teste, mas depois teve uma entrevista onde eles decidiram não seguir comigo no processo :( Mas foi um processo de muita aprendizagem, onde adquiri muita experiência.
+Me inscrevi em uma vaga de emprego e uma parte do processo seletivo era o teste técnico, e eles me pediram para criar este timer, fiz ele todo certinho e passei no teste, mas depois teve uma entrevista onde eles decidiram não seguir comigo no processo :( Mas foi um processo de muita aprendizagem, onde adquiri muita experiência.
